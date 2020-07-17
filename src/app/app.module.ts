@@ -6,12 +6,20 @@ import { AppComponent } from './app.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { DefaultComponent } from './layouts/default/default.component';
 import { DashboardComponent } from './modules/dashboard/dashboard.component';
+import { HeaderComponent } from './shared/component/header/header.component';
+import { FooterComponent } from './shared/component/footer/footer.component';
+import { SlidebarComponent } from './shared/component/slidebar/slidebar.component';
+import { PostsComponent } from './modules/posts/posts.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     DefaultComponent,
-    DashboardComponent
+    DashboardComponent,
+    HeaderComponent,
+    FooterComponent,
+    SlidebarComponent,
+    PostsComponent
   ],
   imports: [
     BrowserModule,
